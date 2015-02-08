@@ -1,18 +1,20 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/help2man.git
 %include	/usr/lib/rpm/macros.perl
 
-Summary:	help2man - automatic manual page generation
+Summary:	Conversion tool to create man files
 Name:		help2man
-Version:	1.43.3
+Version:	1.46.5
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	http://ftp.debian.org/debian/pool/main/h/help2man/%{name}_%{version}.tar.gz
-# Source0-md5:	a84868db7c139238df8add5d86a0b54f
+Source0:	http://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.xz
+# Source0-md5:	5df3ca890ea472bd44fd3cc4ecd0f09e
 URL:		http://www.gnu.org/software/help2man/
 BuildRequires:	gettext-devel
 BuildRequires:	perl-Locale-gettext
 BuildRequires:	rpm-perlprov
 BuildRequires:	texinfo
+Requires:	perl-Locale-gettext
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
