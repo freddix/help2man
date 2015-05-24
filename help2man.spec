@@ -3,12 +3,12 @@
 
 Summary:	Conversion tool to create man files
 Name:		help2man
-Version:	1.46.5
+Version:	1.46.6
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.xz
-# Source0-md5:	5df3ca890ea472bd44fd3cc4ecd0f09e
+# Source0-md5:	320ca506f21823d183d2f573a18bead0
 URL:		http://www.gnu.org/software/help2man/
 BuildRequires:	gettext-devel
 BuildRequires:	perl-Locale-gettext
